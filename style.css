@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: whitesmoke;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 120px;
+    width: 180px;
+
+}
+
+#sus {
+    display: flex;
+    align-items: center;
+}
+
+#textnavbar {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.fiecaretext {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.fiecaretext:hover {
+    color: #ffcc00;
+}
+
+main {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #1a73e8;
+}
+
+#subtitlu, #subtitlu2 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#prezentare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#textprez {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+
+.ctextinc {
+    text-align: left;
+    line-height: 1.8;
+}
+
+.ctextinc::first-letter {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.poze {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.poze img {
+    width: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.poze img:hover {
+    transform: scale(1.05);
+}
+
+#cdpoze {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dpoze {
+    font-weight: bold;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: left;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-top: 3rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 1rem 2rem;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #155ab6;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1a73e8;
+    color: white;
+}
+#kit_rm {
+    border-radius: 5%;
+    height: 450px;
+    width: 450px;
+}
+
+#tricou {
+    height: 400px;
+    width: 300px;
+}
+
+#minge {
+    height: 400px;
+    width: 400px;
+}
+
+#nike {
+    height: 400px;
+    width: 400px;
+}
+
+.tp1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tp2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
